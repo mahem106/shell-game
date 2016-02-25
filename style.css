@@ -1,0 +1,73 @@
+body {
+	background-color: black; 
+}
+
+h1 {
+	display: flex;
+  	justify-content: center;
+	color: gray;
+	font-family: fantasy;
+}
+
+button {
+	display: flex;
+  	justify-content: center;
+}
+
+div {
+	display: flex;
+  	justify-content: center;
+}
+
+.shell{
+	padding: 8px;
+	border-width: 10px;
+	margin: 10px;
+	background-color: green;
+	height: 100px;
+	width: 100px;
+	display: inline;
+}
+
+.grey{
+	padding: 8px;
+	border-width: 10px;
+	margin: 10px;
+	background: gray url('ball.gif') center;
+	height: 100px;
+	width: 100px;
+	display: inline;
+}
+
+.hidden {
+	height: 75px;
+	width: auto;
+	display: none;
+}
+
+.win {
+	height: auto;
+	width: auto;
+	background-color: green;
+	color: white;
+	display: flex;
+  	justify-content: center;
+}
+
+.lose {
+	height: auto;
+	width: auto;
+	background-color: red;
+	color: white;
+	display: flex;
+  	justify-content: center;
+}
+
+.later {
+	height: auto;
+	width: auto;
+	background-color: blue;
+	color: white;
+	display: flex;
+  	justify-content: center;
+}
